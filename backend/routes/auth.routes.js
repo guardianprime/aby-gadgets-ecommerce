@@ -1,4 +1,12 @@
 import { Router } from "express";
+import {
+  loginController,
+  RegisterController,
+} from "../controllers/auth.controllers.js";
+import {
+  googleAuth,
+  googleCallback,
+} from "../controllers/google-auth.controllers.js";
 
 import {
   loginController,
